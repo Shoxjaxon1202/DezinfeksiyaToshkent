@@ -1,0 +1,60 @@
+.haqida {
+  &_subtitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #020c31;
+    font-family: "Unbounded", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  &_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_card {
+    width: 330px;
+  }
+  &_title {
+    max-width: 70%;
+    height: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #020c31;
+  }
+  &_text {
+    font-family: "Unbounded", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676d83;
+  }
+  &_img {
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .haqida {
+    &_cards {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    &_card{
+      width: 97%;
+      border: 1px solid gray;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.klapa {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  margin-top: 70px;
+  background-image: url("../../img/dizinfeksiyachiOka.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  &_right {
+    padding-top: 50px;
+    padding-left: 40%;
+    width: 800px;
+  }
+  &_title {
+    width: 60%;
+    height: 144px;
+
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    /* or 120% */
+
+    color: #fafafa;
+  }
+  &_text {
+    width: 309px;
+    height: 72px;
+
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  &_img {
+    position: relative;
+    width: 100%;
+  }
+}

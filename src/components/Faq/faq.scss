@@ -1,0 +1,45 @@
+.faq_title {
+}
+.summary {
+  height: 70px;
+  color: #75767a !important;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.acardion_text {
+  color: #676d83 !important;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.acordion {
+  border: none !important;
+  margin-top: 40px;
+  box-shadow: none !important;
+}
+.faq {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 200px;
+  font-family: sans-serif !important;
+  &_title {
+    color: #020c31;
+    font-family: Unbounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  &_right {
+    margin-top: 30px;
+  }
+  &_content {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,14 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  width: 1200px !important;
+  margin: auto;
+  padding: 0 20px;
+}

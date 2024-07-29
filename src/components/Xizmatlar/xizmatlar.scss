@@ -1,0 +1,90 @@
+.xizmatlar_subtitle {
+}
+
+.xizmatlar {
+  margin-top: 150px;
+  &_subtitle {
+    font-family: "Unbounded", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;
+    /* identical to box height, or 123% */
+    text-transform: capitalize;
+
+    color: #020c31;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  &_text {
+    width: 700px;
+    height: 48px;
+
+    font-family: "Unbounded", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    color: #666666;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 50px;
+  }
+  &_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 100px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  &_img {
+    width: 300px;
+    height: 300px;
+  }
+  &_title {
+    width: 95%;
+    color: #020c31;
+    font-family: Unbounded;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 10px;
+  }
+  &_text1 {
+    width: 305px;
+    height: 48px;
+
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    color: #666666;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 50px;
+  }
+}

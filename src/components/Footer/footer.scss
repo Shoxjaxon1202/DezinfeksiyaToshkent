@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 80px;
+  display: flex;
+  align-items: start;
+  gap: 150px;
+  margin-bottom: 120px;
+  &_logo {
+    width: 300px;
+  }
+  &_right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &_card {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}

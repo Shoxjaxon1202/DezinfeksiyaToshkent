@@ -1,0 +1,26 @@
+.kafolat {
+  min-height: 585px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 0 20px;
+  border-radius: 16px;
+  background: radial-gradient(
+    498.32% 130.33% at 92.87% 11.25%,
+    #33a9ff 0%,
+    #33fff3 100%
+  );
+  &_title {
+    font-family: Unbounded;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    max-width: 80%;
+    color: #fafafa;
+  }
+}
+
