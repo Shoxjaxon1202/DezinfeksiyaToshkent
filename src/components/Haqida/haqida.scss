@@ -17,6 +17,10 @@
   }
   &_card {
     width: 330px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 60px;
   }
   &_title {
     max-width: 70%;

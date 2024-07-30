@@ -46,7 +46,7 @@ export default class Info_dezinfeksiya extends Component {
   };
   render() {
     return (
-      <div className="info">
+      <div id="info" className="info">
         <div data-aos="fade-right" className="info_left">
           <form onSubmit={this.handleSubmit} id="myForm">
             <h1 className="info_title">Малумотингизни қолдиринг</h1>

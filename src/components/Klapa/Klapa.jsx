@@ -14,9 +14,13 @@ export default class Klapa extends Component {
                 Бизнинг кўп йиллардан бери ўз фаолиятини олиб келаётган
                 компаниямиз. Мижозларимиз биздан мамнун
               </p>
-              <button data-aos="fade-left" className="navbar_btn">
-                Богланиш
-              </button>
+              <a href="#info" className="navbar__link">
+                <button
+                  data-aos="fade-left"
+                  className="navbar_btn klapa_btn">
+                  Богланиш
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ import tarakan5 from "../../img/burga.jpg";
 export default class Services extends Component {
   render() {
     return (
-      <div className="services">
+      <div id="services" className="services">
         <h1 className="services_title">Хизмат тури</h1>
         <div className="services_cards">
           <div data-aos="fade-right" className="services_top">
@@ -21,7 +21,9 @@ export default class Services extends Component {
                 ноқулайликни қўзғатинг...
               </p>
               <div className="services_card_end">
-                <button className="navbar_btn services_btn">Богланиш</button>
+                <a href="#info" className="navbar__link">
+                  <button className="navbar_btn services_btn">Богланиш</button>
+                </a>
                 <img src={tarakan1} alt="" className="services_img" />
               </div>
             </div>
@@ -34,7 +36,9 @@ export default class Services extends Component {
                 қоғоз билан озиқланадилар.
               </p>
               <div className="services_card_end">
-                <button className="navbar_btn services_btn">Богланиш</button>
+                <a href="#info" className="navbar__link">
+                  <button className="navbar_btn services_btn">Богланиш</button>
+                </a>
                 <img src={tarakan2} alt="" className="services_img" />
               </div>
             </div>
@@ -46,7 +50,9 @@ export default class Services extends Component {
                 лекин кўпинча улар ёғоч биноларда топилади ...
               </p>
               <div className="services_card_end">
-                <button className="navbar_btn services_btn">Богланиш</button>
+                <a href="#info" className="navbar__link">
+                  <button className="navbar_btn services_btn">Богланиш</button>
+                </a>
                 <img src={tarakan3} alt="" className="services_img" />
               </div>
             </div>
@@ -60,7 +66,9 @@ export default class Services extends Component {
                 жойларини яратади, структуранинг...
               </p>
               <div className="services_card_end">
-                <button className="navbar_btn services_btn">Богланиш</button>
+                <a href="#info" className="navbar__link">
+                  <button className="navbar_btn services_btn">Богланиш</button>
+                </a>
                 <img src={tarakan4} alt="" className="services_img" />
               </div>
             </div>
@@ -73,7 +81,9 @@ export default class Services extends Component {
                 таглик тагида ва дераза ва ешик ромларида яшайдилар. Улар ...
               </p>
               <div className="services_card_end">
-                <button className="navbar_btn services_btn">Богланиш</button>
+                <a href="#info" className="navbar__link">
+                  <button className="navbar_btn services_btn">Богланиш</button>
+                </a>
                 <img src={tarakan5} alt="" className="services_img" />
               </div>
             </div>

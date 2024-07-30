@@ -6,7 +6,7 @@ import sichqon from "../../img/sichqon.png"
 export default class Xizmatlar extends Component {
   render() {
     return (
-      <div className="xizmatlar">
+      <div id="xizmatlar" className="xizmatlar">
         <h2 data-aos="zoom-in" className="xizmatlar_subtitle">
           Хизматлар
         </h2>

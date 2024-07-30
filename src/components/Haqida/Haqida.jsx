@@ -6,7 +6,7 @@ import haqida_img3 from "../../img/Mask group (2).png";
 export default class Haqida extends Component {
   render() {
     return (
-      <div className="haqida">
+      <div id="haqida" className="haqida">
         <h4 data-aos="zoom-out-down" className="haqida_subtitle">Ҳақида</h4>
         <hr className="haqida_hr" />
         <div className="haqida_cards" data-aos="zoom-out-right">

@@ -10,7 +10,7 @@ export default class Faq extends Component {
   render() {
     return (
       <div className="faq_content"> 
-        <div className="faq">
+        <div id="faq" className="faq">
           <div className="faq_left">
             <h2 className="faq_title">ФАҚ</h2>
           </div>
