@@ -1,11 +1,13 @@
 .intro {
+  box-sizing: border-box;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  margin-top: 150px;
-  margin-bottom: 200px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  max-width: 1200px;
   &_title {
     max-width: 650px;
     font-size: 75px;
@@ -14,18 +16,18 @@
     font-family: "Unbounded", sans-serif;
   }
   &_text {
-    max-width: 290px;
+    max-width: 420px;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #272121;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 130px;
   }
   &_imgs {
     position: absolute;
-    right: 55%;
-    top: 30%;
+    right: 52%;
+    top: 20%;
     z-index: 0;
   }
   &_right {
@@ -43,24 +45,36 @@
   .tozalash1 {
     width: 250px;
   }
-  &_left{
-    width: 43%;
-  }
+  // &_btn {
+  //   display: block;
+  //   width: 400px;
+  //   height: 120px;
+  //   font-size: 42px;
+  //   border-radius: 50px;
+  // }
 }
 
 @media only screen and (max-width: 1140px) {
+  * {
+    a {
+      text-decoration: none;
+    }
+    li {
+      list-style: none;
+    }
+  }
   .intro {
-    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 100%;
     position: static;
     gap: 10px;
-    margin-top: 200px;
-    padding: 40px;
-    background: linear-gradient(
-        65deg,
-        rgba(134, 132, 132, 0.616),
-        rgba(0, 0, 0, 0.205)
-      ),
-      url("../../img/dizinfeksiyachi.jpg");
+    margin-top: 100px;
+    // padding: 20px;
+    background: url("../../img/dizinfeksiyachi.jpg");
+    background-size: contain;
     border-radius: 40px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -68,21 +82,7 @@
     &_text {
       color: white;
     }
-    &_title {
-      width: 450px;
-      font-size: 100px;
-      min-height: 0;
-      font-family: "Unbounded", sans-serif;
-      font-weight: 800;
-    }
-    &_text {
-      max-width: 600px;
-      font-family: sans-serif;
-      font-size: 30px;
-      font-weight: 500;
-      margin-top: 0px;
-      margin-bottom: 20px;
-    }
+
     &_imgs {
       display: none;
     }
@@ -91,17 +91,96 @@
       height: 0;
       background-image: none;
     }
-    &_left{
+    &_left {
       display: flex;
       flex-direction: column;
       gap: 0;
     }
-    &_btn{
+    &_btn {
       display: block;
-      width: 400px;
-      height: 120px;
-      font-size: 42px;
+      width: 280px;
+      height: 80px;
+      font-size: 32px;
       border-radius: 50px;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    width: 99%;
+    background: url("../../img/dizinfeksiyachi.jpg");
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    align-items: center;
+    justify-content: center;
+    &_title {
+      width: 100%;
+      font-size: 40px;
+      min-height: 0;
+      font-family: "Unbounded", sans-serif;
+      font-weight: 800;
+    }
+    &_text {
+      width: 350px;
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    &_btn {
+      display: block;
+      width: 250px;
+      height: 70px;
+      font-size: 32px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+    background: url("../../img/dizinfeksiyachi.jpg");
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    &_title {
+      width: 50%;
+      font-size: 35px;
+      min-height: 0;
+      font-family: "Unbounded", sans-serif;
+      font-weight: 500;
+    }
+    &_text {
+      width: 240px;
+      font-family: sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    &_btn {
+      display: block;
+      width: 120px;
+      height: 50px;
+      font-size: 14px;
+      border-radius: 50px;
+      margin-bottom: 5px;
+
     }
   }
 }

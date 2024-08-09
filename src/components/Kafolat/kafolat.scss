@@ -1,4 +1,5 @@
 .kafolat {
+  max-width: 100%;
   min-height: 585px;
   display: flex;
   align-items: center;
@@ -22,5 +23,87 @@
     max-width: 80%;
     color: #fafafa;
   }
+  &_left {
+    max-width: 510px;
+  }
 }
 
+@media only screen and (max-width: 1140px) {
+  .kafolat {
+    min-height: 585px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 15px;
+    border-radius: 16px;
+    background: radial-gradient(
+      498.32% 130.33% at 92.87% 11.25%,
+      #33a9ff 0%,
+      #33fff3 100%
+    );
+    &_title {
+      font-family: "Unbounded", sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      margin-top: 12px;
+      margin-bottom: 40px;
+      max-width: 90%;
+      color: #fafafa;
+    }
+    &_img {
+      width: 450px;
+      height: 100%;
+      border-radius: 20px;
+    }
+    &_btn {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .kafolat {
+    &_img {
+      width: 380px;
+    }
+    &_btn {
+      display: block;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .kafolat {
+    &_img {
+      display: none;
+    }
+    &_btn {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .kafolat {
+    &_title {
+      font-family: "Unbounded", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      margin-top: 12px;
+      margin-bottom: 40px;
+      max-width: 90%;
+      color: #fafafa;
+    }
+    &_btn {
+      display: block;
+      width: 140px;
+      height: 50px;
+      font-size: 20px;
+    }
+  }
+}

@@ -26,9 +26,11 @@ export default class Kafolat extends Component {
             Расмий кафолат - 1 йил. Биз жизмоний ва юридик шахсларга хизмат
             курсатамиз. Хизматлар лицензияланган!!!
           </h3>
-          <button data-aos="fade-right" className="navbar_btn kafolat_btn">
-            Богланиш
-          </button>
+          <a href="" className="navbar_link">
+            <button data-aos="fade-right" className="navbar_btn kafolat_btn">
+              Богланиш
+            </button>
+          </a>
         </div>
       </div>
     );

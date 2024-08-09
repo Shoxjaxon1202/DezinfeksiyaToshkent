@@ -11,8 +11,8 @@ export default class Services extends Component {
       <div id="services" className="services">
         <h1 className="services_title">Хизмат тури</h1>
         <div className="services_cards">
-          <div data-aos="fade-right" className="services_top">
-            <div className="services_card">
+          {/* <div data-aos="fade-right" className="services_top"> */}
+            <div className="services_card" data-aos="fade-right">
               <h1 className="services_subtitle">КЛАПАЛАР</h1>
               <p className="services_text">
                 Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва
@@ -27,7 +27,7 @@ export default class Services extends Component {
                 <img src={tarakan1} alt="" className="services_img" />
               </div>
             </div>
-            <div className="services_card">
+            <div className="services_card" data-aos="fade-right">
               <h1 className="services_subtitle">ТАРАКАНЛАР</h1>
               <p className="services_text">
                 Улар патогенларни олиб юрадилар. Улар ёриқларда, таглик тагида,
@@ -42,7 +42,7 @@ export default class Services extends Component {
                 <img src={tarakan2} alt="" className="services_img" />
               </div>
             </div>
-            <div className="services_card">
+            <div className="services_card" data-aos="fade-right">
               <h1 className="services_subtitle">ЧАЁН</h1>
               <p className="services_text">
                 Ҳашаротлар ва арахнидлар билан озиқланадиган иссиқликни яхши
@@ -56,9 +56,9 @@ export default class Services extends Component {
                 <img src={tarakan3} alt="" className="services_img" />
               </div>
             </div>
-          </div>
-          <div data-aos="fade-right" className="services_bottom">
-            <div className="services_card">
+          {/* </div> */}
+          {/* <div data-aos="fade-right" className="services_bottom"> */}
+            <div className="services_card" data-aos="fade-right">
               <h1 className="services_subtitle">КЕМИРУВЧИЛАР</h1>
               <p className="services_text">
                 Енг кенг тарқалган каламушлар ва сичқонлар. Улар патогенларни
@@ -72,7 +72,7 @@ export default class Services extends Component {
                 <img src={tarakan4} alt="" className="services_img" />
               </div>
             </div>
-            <div className="services_card">
+            <div className="services_card" data-aos="fade-right">
               <h1 className="services_subtitle">БУРГАЛАР</h1>
 
               <p className="services_text">
@@ -89,7 +89,7 @@ export default class Services extends Component {
             </div>
           </div>
         </div>
-      </div>
+      // </div>
     );
   }
 }

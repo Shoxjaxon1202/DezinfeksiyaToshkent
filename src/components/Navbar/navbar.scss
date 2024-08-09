@@ -6,15 +6,12 @@
   width: 100%;
   margin: auto;
   height: 100px;
-  padding: 20px !important;
+  padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 15px #5e59592a;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  // position: sticky;
-  // top: 0;
-  // transition: all 0.4s;
   z-index: 10;
   &__link {
     font-size: 20px;
@@ -90,22 +87,27 @@
     flex-grow: 0;
   }
   &__logo {
-    width: 300px;
+    max-width: 300px;
     height: 80px;
   }
 
   select {
     font-weight: 600;
+    font-size: 16px;
     padding: 7px;
     color: #000000a6;
     border-radius: 10px;
     margin-right: 30px;
+    max-height: 50px;
   }
   &__burger {
     display: none;
+    margin-top: 10px;
+    width: 40px;
   }
   &_hr {
-    width: 40px;
+    margin-bottom: 10px;
+    max-width: 100%;
     height: 4px;
     background-color: rgb(40, 24, 24);
   }
@@ -138,6 +140,7 @@
 
 @media only screen and (max-width: 1140px) {
   .navbar {
+    padding: 0;
     &_btn {
       display: none;
     }
@@ -152,19 +155,23 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 20px;
+      // padding: 0 5px;
     }
     &__logo {
-      width: 40%;
-      height: 30%;
+      width: 48%;
+      height: 50px;
     }
     select {
-      width: 140px;
-      height: 60px;
-      font-size: 20px;
+      width: 60%;
+      height: 40px;
+      font-size: 14px;
       font-family: sans-serif;
       font-weight: 600;
-      padding: 2px 5px;
+      padding: 0;
+      margin: 0 10px;
+    }
+    &_hr {
+      width: 80%;
     }
   }
 }
