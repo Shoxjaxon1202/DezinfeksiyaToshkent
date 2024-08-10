@@ -1,6 +1,6 @@
 .info {
   max-width: 100%;
-  height: 60vh;
+  height: 600px;
 
   background: radial-gradient(
     333.17% 80.94% at 51.32% 69.21%,
@@ -18,7 +18,7 @@
   &_title {
     color: #242825;
     font-family: "Unbounded", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -73,7 +73,7 @@ label {
 @media only screen and (max-width: 1140px) {
   .info {
     max-width: 100%;
-    height: 80vh;
+    height: 500px;
 
     background: radial-gradient(
       333.17% 80.94% at 51.32% 69.21%,
@@ -91,7 +91,7 @@ label {
     &_title {
       color: #242825;
       font-family: "Unbounded", sans-serif;
-      font-size: 40px;
+      font-size: 25px;
       font-style: normal;
       font-weight: 700;
       line-height: 40px;
@@ -147,7 +147,7 @@ label {
 @media only screen and (max-width: 1000px) {
   .info {
     padding: 20px;
-    height: 85vh;
+    height: 500px;
     align-items: center;
     justify-content: center;
     &_img {
@@ -156,30 +156,12 @@ label {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .info {
-    margin-top: 200px;
-    padding: 20px;
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    justify-content: center;
-    &_img {
-      display: none;
-    }
-    &_left {
-      width: 99%;
-      display: flex;
-    }
-  }
-}
 
 @media only screen and (max-width: 768px) {
   .info {
     margin-top: 200px;
     padding: 20px;
-    height: 95vh;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -235,6 +217,29 @@ label {
       line-height: 24px;
       cursor: pointer;
       margin-top: 50px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .info {
+    margin-top: 100px;
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    justify-content: center;
+    &_img {
+      display: none;
+    }
+    &_left {
+      width: 99%;
+      display: flex;
+    }
+    &_title{
+      font-size: 16px;
     }
   }
 }

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./intro.scss";
-import tozalash from "../../img/tozalash.png";
 import dizinfeksiyachi from "../../img/dizinfeksiyachi.jpg";
 export default class Intro extends Component {
   render() {
@@ -25,7 +24,7 @@ export default class Intro extends Component {
           </a>
         </div>
         <div className="intro_imgs">
-          <img src={tozalash} alt="" className="tozalash1" />
+          
         </div>
 
         <div className="intro_right"></div>

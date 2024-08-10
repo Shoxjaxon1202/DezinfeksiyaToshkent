@@ -12,7 +12,9 @@ export default class Footer extends Component {
         <hr className="footer_hr" />
         <footer className="footer">
           <div className="footer_left">
-            <img src={logo} alt="" className="logo footer_logo" />
+            <a href="#intro">
+              <img src={logo} alt="" className="logo footer_logo" />
+            </a>
           </div>
           <div className="footer_right">
             <a href="#intro" className="footer__link">
@@ -22,7 +24,7 @@ export default class Footer extends Component {
                 <img src={arrow} alt="" className="footer_card_img" />
               </div>
             </a>
-            <a href="#info" className="footer__link">
+            <a href="tel: 901740144" className="footer__link">
               <div data-aos="fade-right" className="footer_card">
                 <img src={tel} alt="" className="footer_card_img" />
                 +998 99 119 99 33

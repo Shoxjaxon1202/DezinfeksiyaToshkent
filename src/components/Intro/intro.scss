@@ -10,7 +10,8 @@
   max-width: 1200px;
   &_title {
     max-width: 650px;
-    font-size: 75px;
+    font-size: 60px;
+    font-weight: 600;
     min-height: 0;
     color: #093fb3;
     font-family: "Unbounded", sans-serif;
@@ -25,8 +26,12 @@
     margin-bottom: 130px;
   }
   &_imgs {
+    width: 200px;
+    height: 150px;
+    background-image: url("../../img/tozalash.png");
+    background-size: cover;
     position: absolute;
-    right: 52%;
+    right: 48%;
     top: 20%;
     z-index: 0;
   }
@@ -40,7 +45,7 @@
   &_img {
     width: 100%;
     height: 620px;
-    z-index: 100;
+    z-index: 0;
   }
   .tozalash1 {
     width: 250px;
@@ -122,7 +127,7 @@
     justify-content: center;
     &_title {
       width: 100%;
-      font-size: 40px;
+      font-size: 35px;
       min-height: 0;
       font-family: "Unbounded", sans-serif;
       font-weight: 800;
@@ -137,9 +142,9 @@
     }
     &_btn {
       display: block;
-      width: 250px;
-      height: 70px;
-      font-size: 32px;
+      width: 160px;
+      height: 60px;
+      font-size: 20px;
       border-radius: 50px;
       margin-bottom: 10px;
     }
@@ -160,7 +165,7 @@
     background-size: 500px;
     &_title {
       width: 50%;
-      font-size: 35px;
+      font-size: 25px;
       min-height: 0;
       font-family: "Unbounded", sans-serif;
       font-weight: 500;

@@ -6,20 +6,23 @@ export default class Navbar extends Component {
     return (
       <div className="navbar">
         <nav className="navbar__container">
-          <img src={logo} alt="logo" className="navbar__logo" />
+          <a className="navbar__logo" href="#intro">
+            <img src={logo} alt="logo" className="navbar__logo" />
+          </a>
           <ul className="list">
             <li className="item">
               <a href="#intro" className="navbar__link">
                 Асосий
               </a>
             </li>
-            <li id="turshak" className="item">
-              <a href="#haqida" className="navbar__link">
+            <a href="#haqida" className="navbar__link">
+              <li id="turshak" className="item">
                 <span>Биз</span>
                 <span>ҳақимизда</span>
-              </a>
-            </li>
-            <li className="item">
+              </li>
+            </a>
+
+            <li className="item" id="margin">
               <a href="#xizmatlar" className="navbar__link">
                 Хизматлар
               </a>
@@ -31,9 +34,9 @@ export default class Navbar extends Component {
             </li>
           </ul>
           <div className="navbar__right">
-            <select name="" id="">
-              <option value="">O'zbekcha</option>
-              <option value="">Ruscha</option>
+            <select className="navbar__select" name="" id="">
+              <option value="">Ўзбекча</option>
+              <option value="">Русский</option>
             </select>
 
             <a href="#info" className="navbar__link">

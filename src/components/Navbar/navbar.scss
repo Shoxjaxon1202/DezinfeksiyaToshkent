@@ -13,6 +13,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
+
   &__link {
     font-size: 20px;
     font-weight: 500;
@@ -21,12 +22,12 @@
     font-family: sans-serif;
   }
   &_btn {
-    width: 200px;
+    width: 180px;
     height: 60px;
     color: #fff;
     border-radius: 25px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
 
     cursor: pointer;
     transition: all 0.1s ease;
@@ -55,6 +56,7 @@
     }
   }
   .list {
+    width: 450px;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -112,8 +114,7 @@
     background-color: rgb(40, 24, 24);
   }
   &__container {
-    width: 1260px !important;
-    display: flex !important;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px auto;
@@ -132,25 +133,18 @@
 
 #turshak {
   display: flex;
-  align-items: center;
-  flex-direction: row;
   gap: 5px;
   margin-right: 50px;
+  color: #00000098;
 }
 
 @media only screen and (max-width: 1140px) {
   .navbar {
     padding: 0;
-    &_btn {
-      display: none;
-    }
     .list {
-      display: none;
-    }
-    &__burger {
-      display: block;
     }
     &__container {
+      width: 100%;
       gap: 0;
       display: flex;
       align-items: center;
@@ -158,11 +152,16 @@
       // padding: 0 5px;
     }
     &__logo {
-      width: 48%;
+      width: 90%;
+      height: 45px;
+    }
+    &_btn {
+      width: 130px;
       height: 50px;
+      font-size: 16px;
     }
     select {
-      width: 60%;
+      width: 100px;
       height: 40px;
       font-size: 14px;
       font-family: sans-serif;
@@ -172,6 +171,41 @@
     }
     &_hr {
       width: 80%;
+    }
+    &__container {
+      gap: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    &__container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_btn {
+      display: none;
+    }
+    &__burger {
+      display: block;
+    }
+    .list {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .navbar {
+    select {
+      width: 80px;
+      height: 40px;
+      font-size: 14px;
+      font-family: sans-serif;
+      font-weight: 600;
+      padding: 0;
+      margin: 0 10px;
     }
   }
 }

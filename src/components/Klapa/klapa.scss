@@ -1,6 +1,6 @@
 .klapa {
   width: 100%;
-  height: 75vh;
+  height: 600px;
   margin-top: 70px;
   background-image: url("../../img/dizinfeksiyachiOka.png");
   background-size: cover;
@@ -10,8 +10,8 @@
   margin-bottom: 200px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  a{
+  justify-content: end;
+  a {
     text-decoration: none;
   }
   &_right {
@@ -23,13 +23,13 @@
     gap: 30px;
   }
   &_title {
-    width: 100%;
+    max-width: 90%;
     height: 144px;
     margin-bottom: 20px;
     font-family: "Unbounded";
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 48px;
     /* or 120% */
 
@@ -42,7 +42,7 @@
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     /* or 150% */
 
@@ -63,29 +63,23 @@
   .klapa {
     position: relative;
     width: 100%;
-    height: 75vh;
-    margin-top: 70px;
-    background-image: url("../../img/dizinfeksiyachiOka.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 500px;
     border-radius: 20px;
+    justify-content: center;
     &_right {
-      // padding-top: 5%;
-      // padding-left: 40%;
       width: 80%;
       display: flex;
       flex-direction: column;
       gap: 30px;
     }
     &_title {
-      width: 100%;
+      width: 70%;
       height: 144px;
 
       font-family: "Unbounded";
       font-style: normal;
       font-weight: 700;
-      font-size: 50px;
+      font-size: 40px;
       line-height: 48px;
       /* or 120% */
 
@@ -98,7 +92,7 @@
       font-family: "SF Pro Display";
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 24px;
       /* or 150% */
 
@@ -114,7 +108,7 @@
 @media only screen and (max-width: 768px) {
   .klapa {
     &_title {
-      width: 100%;
+      width: 70%;
       height: 144px;
 
       font-family: "Unbounded";
@@ -127,7 +121,7 @@
       color: #fafafa;
     }
     &_text {
-      width: 100%;
+      width: 50%;
       height: 72px;
 
       font-family: "SF Pro Display";
@@ -142,7 +136,7 @@
     }
     &_btn {
       display: block;
-      width: 60%;
+      width: 170px;
       height: 50px;
       font-size: 20px;
       display: block;
@@ -150,3 +144,43 @@
   }
 }
 
+
+
+@media only screen and (max-width: 420px) {
+  .klapa {
+    &_title {
+      width: 100%;
+      height: 144px;
+
+      font-family: "Unbounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 38px;
+      /* or 120% */
+
+      color: #fafafa;
+    }
+    &_text {
+      width: 95%;
+      height: 72px;
+
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+
+      color: #ffffff;
+      margin-bottom: 50px;
+    }
+    &_btn {
+      display: block;
+      width: 140px; 
+      height: 45px;
+      font-size: 16px;
+      display: block;
+    }
+  }
+}

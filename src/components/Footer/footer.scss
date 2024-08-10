@@ -9,7 +9,7 @@
   }
   &_right {
     display: flex;
-    align-items: center;
+    // align-items: center;
     flex-direction: column;
   }
   &_card {
@@ -42,14 +42,14 @@
     }
     &_right {
       display: flex;
-      align-items: center;
+      // align-items: center;
       flex-direction: column;
     }
     &_card {
       width: 300px;
       margin-bottom: 20px;
       display: flex;
-      align-items: center;
+      // align-items: center;
       gap: 30px;
     }
     &__link {
@@ -224,7 +224,7 @@
 @media only screen and (max-width: 1140px) {
   .footer {
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     justify-content: end;
   }
 }
@@ -232,5 +232,16 @@
 @media (max-width: 680px) {
   .btn-call {
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .footer{
+    &_logo{
+      width: 200px;
+    }
+    &_card{
+      width: 90%;
+    }
   }
 }

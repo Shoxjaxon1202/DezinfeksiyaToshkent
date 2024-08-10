@@ -9,6 +9,7 @@
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 30px;
   }
   &_cards {
     margin-top: 20px;
@@ -30,7 +31,7 @@
     font-family: "Unbounded", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 32px;
     text-transform: capitalize;
     color: #020c31;
@@ -39,18 +40,23 @@
     font-family: "Unbounded", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #676d83;
   }
   &_img {
     position: relative;
     top: 40px;
+    width: 50px;
   }
 }
 
 @media only screen and (max-width: 1140px) {
   .haqida {
+    &_subtitle {
+      font-weight: 600;
+      font-size: 40px;
+    }
     &_cards {
       flex-direction: column;
       flex-wrap: wrap;
@@ -61,6 +67,12 @@
       border-radius: 20px;
       margin-bottom: 20px;
       padding: 10px;
+
+      gap: 30px;
+      padding-bottom: 20px;
+    }
+    &_img {
+      margin-bottom: 30px;
     }
   }
 }
@@ -86,12 +98,40 @@
       line-height: 18px;
       color: #676d83;
     }
-    &_subtitle{
+    &_subtitle {
       font-size: 30px;
       margin-bottom: 5px;
     }
   }
 }
 
-// @media only screen and (max-width: 420px) {
-// }
+@media only screen and (max-width: 420px) {
+  .haqida {
+    &_img{
+      width: 40px;
+    }
+    &_title {
+      max-width: 70%;
+      height: 40px;
+      font-family: "Unbounded", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #020c31;
+    }
+    &_text {
+      font-family: "Unbounded", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #676d83;
+    }
+    &_subtitle {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+  }
+}
